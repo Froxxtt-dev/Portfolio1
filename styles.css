@@ -87,7 +87,7 @@ body {
 
 /* About Section */
 .about {
-    padding: 4rem 4rem;
+    padding: 2rem 2rem;
     background: #f9f9f9;
     text-align: center;
 }
@@ -117,13 +117,13 @@ body {
 }
 
 .about-text {
-    max-width: 2000px;
-    text-align: justify;
+    max-width: 1000px;
+    text-align: center;
 }
 
 .about-text p {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .about-text h3 {
@@ -264,7 +264,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
