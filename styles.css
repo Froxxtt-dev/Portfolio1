@@ -28,6 +28,7 @@ body {
     color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
+    text-transform: uppercase
 }
 
 .nav-links {
@@ -144,7 +145,7 @@ body {
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 20px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 /* Projects Section */
@@ -174,6 +175,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    border: 1px solid #ddd;
 }
 
 .project-card:hover {
