@@ -268,9 +268,10 @@ body {
 }
 
 @media (max-width: 768px) {
-     font-size: 2.5rem;
-    font-weight: bold;
-    line-height: 1.2;
+    .hero-content h1 {
+        font-size: 2.5rem;
+        font-weight: bold; 
+        line-height: 1.2;
     }
 
     .nav-links {
