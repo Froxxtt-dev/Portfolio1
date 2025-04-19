@@ -469,6 +469,11 @@ body {
         text-align: center;
     }
 
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+
     .services {
         padding: 3rem 1rem;
     }
@@ -496,5 +501,10 @@ body {
     .projects h2,
     .contact h2 {
         font-size: 2rem;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
     }
 }
