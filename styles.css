@@ -104,14 +104,14 @@ body {
     width: 100%;
     height: 100%;
     background: url('Assets/hero-laptop.jpg') no-repeat center center/cover;
-    filter: blur(6.5px); /* Apply blur only to the background image */
-    background-color: rgba(26, 42, 68, 0.6); /* Semi-transparent navy overlay for text readability */
+    filter: blur(6.5px);
+    background-color: rgba(26, 42, 68, 0.6);
     z-index: 1;
 }
 
 .hero-content {
-    z-index: 2; /* Ensure text is above the blurred background and overlay */
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add subtle shadow to text for better contrast */
+    z-index: 2;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content h1 {
@@ -449,6 +449,7 @@ body {
     }
 
     .hero {
+        height: 60vh;
         padding: 2rem;
     }
 
@@ -488,6 +489,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .hero {
+        height: 50vh;
+    }
+
     .hero-content h1 {
         font-size: 2rem;
     }
